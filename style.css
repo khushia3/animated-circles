@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(18, 24, 22);
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 50px;
+}
+#hero1{
+    height: 50vw;
+    width: 50vw;
+    background: rgb(144, 103, 32);
+    border-radius: 50%;
+    filter: blur(20px);
+    position: absolute;
+}
+#hero2{
+    height: 30vw;
+    width: 30vw;
+    margin-top: 100px;
+    margin-left: 150px;
+    background: peru;
+    border-radius: 50%;
+    filter: blur(20px);
+    position: absolute;
+    animation: anime 3s alternate 0s infinite  ;
+}
+#hero3{
+    height: 30vw;
+    width: 30vw;
+    background: orange;
+    border-radius: 50%;
+    filter: blur(30px);
+    position: absolute;
+    animation: anime 5s alternate 2s infinite  ;
+}
+#hero4{
+    height: 20vw;
+    width: 20vw;
+    background:yellow;
+    border-radius: 50%;
+    filter: blur(50px);
+    position: absolute;
+    animation: anime 5s alternate 3s infinite  ;
+}
+@keyframes anime {
+    from{
+        transform: translate(-10%, -10%);
+    }
+    to{
+        transform: translate(10%, 10%);
+    }
+    
+}
